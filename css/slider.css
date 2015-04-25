@@ -36,30 +36,26 @@ a.right {
 div.button {
     height: 30px;
     width: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: inline-block;
-    
-    
+ 
 /*    background-color: #26ADA1;*/
 /*    background-color: #ABC147;*/
 /*    background-color: #608D4E;*/
+/*    border: 2px solid #B27300;*/
+/*    border: 2px solid #CC8400;*/
+    border: 2px solid #E59400;
     background-color: #FFA500;
-
-
-
 }
 
 div.button p {
     margin-top: 5px;
     text-align: center;
 /*    color: #608D4E;*/
-
 /*    color: #85794D;*/
 /*    color: #CED9BC;*/
     color: #FFF6E5;
 
-
-    
     font-family: Verdana, Arial, sans-serif;
 }
 
@@ -67,7 +63,6 @@ div.button.btn_highlight {
      background-color: #608D4E;
 /*    border: 2px solid #608D4E*/
 /*     background-color: #FFFFFF;*/
-
 }
 
 #prev_btn {
