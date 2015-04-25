@@ -67,4 +67,24 @@ $(document).ready(function () {
     }, function() {
         startSlider();
     });
+    
+    $('div.button').mouseenter(function() {
+//        $(this).toggleClass('btn_highlight');
+        $(this).fadeTo('fast', 0.5);
+    });
+    
+    $('div.button').mouseleave(function() {
+//        $(this).toggleClass('btn_highlight');
+        $(this).fadeTo('fast', 10);
+    });
+        
+    $('#prev_btn').click(function() {
+        var newSlide = sliderInt-1;
+        showSlide(newSlide);
+    });
+        
+    $('#next_btn').click(function() {
+        var newSlide = sliderInt+1;
+        showSlide(newSlide);
+    });
 });

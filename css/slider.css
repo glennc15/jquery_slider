@@ -32,4 +32,44 @@ a.left {
 a.right {
     float: right;
 }
+
+div.button {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    display: inline-block;
     
+    
+/*    background-color: #26ADA1;*/
+/*    background-color: #ABC147;*/
+    background-color: #608D4E;
+
+
+}
+
+div.button p {
+    margin-top: 5px;
+    text-align: center;
+/*    color: #608D4E;*/
+
+/*    color: #85794D;*/
+    color: #CED9BC;
+
+    
+    font-family: Verdana, Arial, sans-serif;
+}
+
+div.button.btn_highlight {
+     background-color: #608D4E;
+/*    border: 2px solid #608D4E*/
+/*     background-color: #FFFFFF;*/
+
+}
+
+#prev_btn {
+    float: left;
+}
+
+#next_btn {
+    float: right;
+}
