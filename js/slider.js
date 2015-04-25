@@ -70,12 +70,12 @@ $(document).ready(function () {
     
     $('div.button').mouseenter(function() {
 //        $(this).toggleClass('btn_highlight');
-        $(this).fadeTo('fast', 0.5);
+        $(this).fadeTo('fast', 0.8);
     });
     
     $('div.button').mouseleave(function() {
 //        $(this).toggleClass('btn_highlight');
-        $(this).fadeTo('fast', 10);
+        $(this).fadeTo('fast', 1.0);
     });
         
     $('#prev_btn').click(function() {
